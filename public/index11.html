@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Express Sample</title>
+    <script>
+        $(document).ready(function(){
+                            
+                        $('#fo1').on('submit', e => {
+							e.preventDefault();
+							
+							 $.post('/', $('#fo1').serialize()).done(data => {
+									 
+                                    
+                                    alert(data.length)
+							 });
+							 
+						});
+			});
+    </script>
+</head>
+
+<body>
+    <form id="fo1" >
+        <input type="text" name="username" placeholder="Enter Username">
+        <br>
+        
+        <br>
+        <input type="submit">
+    </form>
+
+    <div> 
+        
+    </div>
+
+</body>
+
+</html>

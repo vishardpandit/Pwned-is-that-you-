@@ -1,0 +1,57 @@
+    #fo1
+    {
+
+    max-width:500px;
+    margin: auto;
+    
+    }
+    #colo
+    {
+    background-color: #EE6E73;
+    }
+    
+    @-webkit-keyframes typing { from { width: 0; } }
+    @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+    h2
+    {
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px; 
+    width: 700px;
+    height: 100px;  
+    border-right: solid green;
+    width: 10.5em; 
+    width: 19ch;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 3s steps(21, end),
+    blink-caret .5s step-end infinite alternate;    
+    }
+    
+.page 
+{
+  color: #378CAC;
+  font-size: 21px;
+  font-weight: 100;
+  text-align: center;
+  font-family: 'Comfortaa';
+  
+}
+.abc{
+  height:60px;
+  width: 700px;
+  background-color: #EE6E73;
+}
+.fonts
+nav
+   {
+   height:65px;
+   font-size: 100px;
+   }
+
+  body 
+  {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
